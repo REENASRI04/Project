@@ -105,12 +105,17 @@
     .skill{
     text-align: center;
     font-size: 40px;
+    padding: 20px;
+    }
+    #cont{
+    text-align: center;
+   
     padding: 30px;
     }
-    .con{
+    .sec{
     text-align: center;
     font-size: 40px;
-    padding: 50px;
+
     }
     .tea1{
 
@@ -146,6 +151,56 @@
 }
 .t1{
     padding: 5px;
+}
+.co{
+    width: 80%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: lavender;
+    border-radius: 40px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.co h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+form input,
+form textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    color: #333;
+   
+}
+form input:focus,
+form textarea:focus{
+    outline:none;
+    box-shadow: 0 0 5px #333 ;
+}
+form button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+
+}
+form button:hover{
+background-color: #555;
+}
+.re{
+    text-align: left;
+    padding-left: 200px;
+    color: #333;
 }
    </style>
 </head>
@@ -242,15 +297,23 @@
         </ol>
         <h2 style="color:white;text-align: center;padding: 10px;"><u>LANGUAGES</u></h2>
 <ol class="tea4">
-    <li class="t1">ENGLISH (full professional proficiency)</li>
+    <li class="t1">ENGLISH </li>
     <li class="t1">TAMIL (native/bilingual proficiency)</li>
 </section>
 <section id="cont">
- <h1 class="con">Contact</h1>
- <center><div class="cbox">
-    <div class="info"><a href="mailto:sreenasri04@gmail.com"><i>Mail: sreenasri04.com</i></a></div>
-    <div class="info"><a href="tel:+919659643728"><i>Phone num: 9659643728</i></a></div>
-
-</div>
+    <h1 class="sec">Contact</h1>
+ <div class="co">
+     <h1>I look forward to hearing from you</h1>
+    <form>
+        <input type="text"  placeholder="Your Name" required>
+        <input type="email"  placeholder="Email" required>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+ </div>
+ <div class="re">
+    <h1>Email id: sreenasri04@gamil.com</h1><br>
+    <h1>Mobile No: 9659643728</h1>
+ </div>
 </section>
 </body>
